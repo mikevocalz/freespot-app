@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+    "strict": true,
+    "jsxImportSource": "nativewind",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "index.js"],
+  "extends": "../../tsconfig"
+}
